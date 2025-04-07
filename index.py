@@ -4,7 +4,7 @@ import google.generativeai as genai
 import streamlit as st
 from PIL import Image
 
-genai.configure(api_key="AIzaSyB5F3mRxEOlbyyq0ZlE_pmGCkqPlVdzJo8")
+genai.configure(api_key="your google gemini api key")
 
 st.title("Animal Species Identifier")
 
